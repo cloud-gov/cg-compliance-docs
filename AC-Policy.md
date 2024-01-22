@@ -90,3 +90,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2021-02: Customer accounts will be deactivated after not logging into the system after 90 days.
 * 2021-11: Reviewed by @pburkholder, no changes
 * 2022-04: Include additional guidance for details, leave, extended absences, and terminations
+* 2024-01: Annual Review. No updates.
