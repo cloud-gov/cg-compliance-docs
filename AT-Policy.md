@@ -50,3 +50,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: State retention policy for training records
+* 2024-01: Annual Review. No updates.
