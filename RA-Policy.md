@@ -45,6 +45,21 @@ Access to scanning tools, scan results, and logs is broadly shared amongst the c
 
 See RA-5, RA-5(1), RA-5(2), RA-5(3), RA-5(5), RA-5(6), RA-5(8).
 
+cloud.gov leverages GSA's vulnearability disclosure program to satisvy RA-5(11):
+- The program should send us, via cloud-gov-compliance@gsa.gov or
+  cloud-gov-security@gsa.gov, new Bug Bounty findings
+- When receiving a new report, the Assurance team
+  - Ensures it has a proper tracking number from GSA IT 
+  - Saves the report as a Google doc in the Google Folder 
+    ["GitHub Supplemental Information"](https://drive.google.com/drive/folders/1QfLClYg5lw-QPSrLKLEtSEI9ITn5wiYd) 
+    with the naming conventiong: `YYYY-MM-DD BBP #NNNNN - short description - product`, e.g.
+    `2023-12-07 BBP alert #2247177 - improper access control - Pages`
+  - Creates a GitHub issue for the appropriate team, referencing the document
+- Notifies the team via Slack
+
+The assurance team should track the issue either as bug (if Low severity) or
+as a finding if Medium or High severity). 
+
 
 # Version history
 
@@ -55,3 +70,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Correct to using GSA TTS as organization name
+* 2023-12: Add VDP process
